@@ -22,7 +22,7 @@
 
 
 .fieldset {
-
+  
   background-color: #a5a4b2;
   border: 2px solid #a5a4b2;
   border-radius: 7px;
@@ -34,17 +34,17 @@
 }
 
 
-.fieldset .h1{
+.fieldset .h1 {
 
   font-size: 2rem;
   font-weight: 700;
   padding: 1rem;
   text-align: center;
   color: #f5f5f5;
-  
 }
 
-.acc-input {
+
+.fieldset .acc-input {
 
   align-items: stretch;
   border-radius: 5px;
@@ -53,7 +53,7 @@
 }
 
 
-.acc-input .label{
+.acc-input .label {
  
   background-color: #a5a4b2;
   border-radius: 5px;
@@ -62,23 +62,42 @@
   flex-direction: column;
   font-weight: 600;
   margin-bottom: 1rem;
+  margin-left: 2px;
+  margin-right: 2px;
   padding: 0.5rem;
-
 }
 
 
-.label .input  {
+.input {
 
   border: 2px solid #f3bc01;
   border-radius: 5px;
 }
 
 
-.label .input-outline {
 
-  outline-color: 10px solid green;
+
+
+
+/* STYLING class definitions */
+
+.label-highlight {
+  
+  border: 1px solid #6f717c;
   border-radius: 5px;
-}
+}  
+
+.label-highlight-rim {
+  
+  border: 2px solid chocolate;
+  border-radius: 5px;
+ }
+
+
+.input-highlight {
+
+  background-color: #f5f5f5;
+ }
 
 .btn-style-std {
 
@@ -110,13 +129,15 @@
 
 
 
-.pwd-is-valid{
+.pwd-is-valid {
+  
   color: green;
   font-weight: 700;
 }
 
 
-.pwd-is-iinvalid{
+.pwd-is-invalid {
+  
   color: red;
   font-weight: 700;
 }
