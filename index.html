@@ -3,10 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="stylesheet" href="index.css">
   <title>Account Registration</title>
 </head>
-<body>
-  <script src="index.js"></script>
+<body class="body">
+<fieldset class="fieldset"> 
+    <h1 class="h1">Sign up for an Account</h1>
+      <form class="acc-input">
+              <label class="label">Name:
+                 <input class="input" type="text" id="name" />
+              </label>
+
+              <label class="label">Username:
+                <input class="input" type="text" id="username" />
+              </label>
+
+              <label class="label">Email:
+                <input class="input" type="email" id="email"  />
+              </label>
+
+              <label class="label">Password (8 characters minimum):
+                <input class="input pwd-input" type="password" id="password"/>
+              </label>
+
+              <label class="label">Confirm password:
+                <input class="input" type="password" id="confirmP" />
+              </label>
+
+              <button class="btn-press btn-style-std" type="submit">Sign up!</button>
+
+      </form>
+
+
+</fieldset>
+<script src="index.js"></script>
 </body>
 </html>
